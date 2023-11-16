@@ -1,3 +1,20 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #3B3B3B;
+}
+.page-wrapper {
+  max-width: 391px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+  box-shadow: 0px 4px 22.6px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+}
+.header {
+  padding-block-end: 232px;
+  border-radius: 20px 20px 60px 60px;
+  background: url('../img/header-bg.png'), lightgray 50% center / cover no-repeat;
+  box-shadow: 0px 6px 10.4px 0px rgba(0, 0, 0, 0.27);
+}
