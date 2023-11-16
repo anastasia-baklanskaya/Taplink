@@ -12,9 +12,34 @@ body {
   box-shadow: 0px 4px 22.6px 0px rgba(0, 0, 0, 0.10);
   border-radius: 20px;
 }
+.container {
+  max-width: 297px;
+  margin: auto;
+}
 .header {
   padding-block-end: 232px;
   border-radius: 20px 20px 60px 60px;
   background: url('../img/header-bg.png'), lightgray 50% center / cover no-repeat;
   box-shadow: 0px 6px 10.4px 0px rgba(0, 0, 0, 0.27);
+}
+.user {
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: width: 297px; height: 81px;
+  text-align: center;
+  background: #EEE;
+  filter: drop-shadow(0px 4px 5.900000095367432px rgba(0, 0, 0, 0.19));
+}
+.user-avatar {
+  margin-top: -100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-name {
+  margin-top: -3px;
+  margin-bottom: -17px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
 }
